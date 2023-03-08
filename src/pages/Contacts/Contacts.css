@@ -1,0 +1,40 @@
+.contactsContainer {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+    align-items: center;
+}
+
+.contactsContainer img {
+    height: 470px;
+}
+
+.contactsContainer h2 {
+    padding: 70px;
+    font-size: 45px;
+}
+
+.contactsContainerFlex {
+    padding: 0 500px;
+    line-height: 1.7;
+    opacity: 90%;
+}
+
+.contactsContainerFlex h3 {
+    font-size: 35px;
+    padding: 35px 0;
+}
+
+.contactJoignable {
+    padding: 20px 0;
+}
+
+.contactPolyvalent {
+    padding: 15px 0 40px;
+}
+
+.contactThanks {
+    padding-top: 20px;
+}

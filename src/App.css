@@ -1,0 +1,20 @@
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  overscroll-behavior: none;
+}
+
+.App { 
+  background-image: url('./assets/arrierePlan.png');
+  background-size: 92% auto;
+  background-position: center 50px;
+  background-repeat: no-repeat;
+  background-color: black; 
+
+}
+
+

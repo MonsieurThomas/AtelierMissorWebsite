@@ -1,0 +1,211 @@
+/* BRONZE */
+
+.titleBronze {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 500px;
+    margin-bottom: 100px;
+}
+
+.productsBronze {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns : repeat(4,1fr);
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+/* ARTICLE */
+
+
+.articleEnsemble{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 100px 0 100px ;
+    margin: 0 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+}
+
+.articleImgContainer {
+    flex: 1;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.imgMissor {
+    width: auto;
+    height: auto;
+    max-height: 180px;
+    
+}
+.articleTextContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.articleTitle{
+    color: white;
+    font-size: 46px;
+    padding: 10px 0;
+}
+
+.articleText{
+    color: white;
+    margin-right: 200px;
+    line-height: 1.5;
+}
+
+.articleYellowtext{
+    margin-top: 20px;
+    color: #A97711;
+    cursor: pointer;
+}
+
+/* CLASSICAL BUSTES */
+
+.titleClassicalBuste {
+    color: white;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 24px;
+}
+
+/* MODALITY */
+
+.modalityWhole{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0 30px;
+}
+
+.titleContainerModality {
+    color: white;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 24px;
+}
+
+.modalityFlex {
+    display: flex;
+    margin: 100px 205px ;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.modalityImg{
+    width: 460px;
+}
+
+
+.modalityText {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    line-height: 1.5;
+}
+
+.modalityText h1 {
+    font-size: 40px;
+}
+
+/* LAST ARTICLES */
+
+.LastArticleTitle {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.LastArticleFlex{
+    display: flex;
+    align-items: center;
+    margin: 100px 230px;
+    gap: 70px;
+    text-decoration: none;
+}
+
+.LastArticleImg{
+    width: auto;
+    height: auto;
+    max-width: 460px;
+}
+
+.LastArticleImg.guillaumet{
+    width: auto;
+    height: auto;
+    max-width: 460px;
+    max-height: 200px;
+}
+
+.LastArticleImgJeanne{
+    margin-top: 35px;
+    height: 200px;
+}
+
+.LastArticleText{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    line-height: 1.5;
+}
+
+#LastArticleEnd {
+    color: #A97711;
+}
+
+/* COURRIER */
+
+.CourrierWhole {
+    color: white;
+    text-align: center;
+}
+
+.CourrierWhole h2 {
+    margin: 100px 0 50px 0;
+}
+
+.CourrierWhole p {
+    margin-bottom: 40px;
+}
+
+
+.CourrierFlex input {
+    width: 450px;
+    height: 50px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.725);
+}
+
+.CourrierFlex button {
+    height: 50px;
+    width: 120px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #bb810e;
+    cursor: pointer;
+
+}

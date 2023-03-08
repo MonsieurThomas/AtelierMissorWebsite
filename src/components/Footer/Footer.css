@@ -1,0 +1,79 @@
+.FooterWhole {
+    color: white;
+    background-color: black;
+}
+
+.FooterFlex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px;
+    padding-right: 380px;
+    
+}
+.FooterText li {
+    line-height: 2.5;
+    font-size: 13px;
+    list-style-type: none;
+}
+.FooterReseau li {
+    padding: 8px;
+    font-size: 14px;
+    list-style-type: none;
+    margin-left: 10px;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+}
+
+.FooterReseau span {
+    margin-left: 12px;
+}
+
+
+
+.FooterAuthorRight {
+    margin: 70px 250px 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.87);
+}
+
+.FooterAuthorRight button{
+    margin-right: 10px; 
+    padding-bottom: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: black;
+    color: rgba(240, 255, 255, 0.844);
+    border: 1px solid rgba(137, 137, 137, 0.657);
+    order: 100;
+    text-align: center;
+}
+
+.FooterAuthorRight span{
+    position: relative;
+    top: 3.5px;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.657);
+}
+
+
+.FooterLogo {
+    padding: 0 0 40px 230px ;
+}
+
+.FooterLogo span {
+    padding: 12px;
+    font-size: 30px;   
+}
+
+.FooterReseau a {
+    text-decoration: none;
+    color: white;
+}
+
+.FooterButton button {
+    cursor: pointer;
+}

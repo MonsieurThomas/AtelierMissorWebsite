@@ -1,0 +1,142 @@
+.articleCompContainer {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.articleCompTitle {
+    padding: 50px;
+    text-align: center;
+    font-size: 37px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: blue; */
+}
+
+.articleCompAvionImg {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.articleCompFlex.saintExupery {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 400px 0 100px;
+}
+
+.articleCompFlex.saintExupery img {
+    height: 350px;
+}
+
+.articleCompDateContainer {
+    text-align: right;
+    opacity: 50%;
+    font-size: 14px;
+}
+
+.articleCompDate {
+    padding-bottom: 20px;
+}
+
+.ArticleLegendeSaintExupery {
+    padding: 15px 480px;
+    font-style: italic;
+    font-size: 13.5px;
+    line-height: 1.7;
+}
+
+.articleCompTextPadded {
+    padding: 15px 450px;
+    line-height: 1.6;
+}
+
+.articleCompTextPaddedP {
+    padding: 10px;
+}
+
+.articleCompTextPaddedImg.saintExupery{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.articleCompTextPaddedImg.saintExupery img{
+    width: 450px;
+}
+
+.ArticleLegendeAvions {
+    padding-right: 300px;
+    font-style: italic;
+    opacity: 70%;
+    font-size: 14px;
+}
+
+.articleCompSaintExuperyLastText {
+    padding: 0 70px;
+    opacity: 80%;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.articleCompTextPadded button {
+    float: right;
+    border: none;
+    width: 140px;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    background-color: #bb810e;
+    border-radius: 5px;
+}
+
+.articleCompContainer h5 {
+    text-align: center;
+    padding: 100px 0 0;
+    font-size: 20px;
+}
+
+
+/* JEANNE */
+
+.articleCompContainerImgJeanne {
+    display: block;
+    width: 1000px;
+    margin: 0 auto 20px;
+}
+
+.articleCompDateContainer.jeanne {
+    position: absolute;
+    top: 620px;
+    left: 18%;
+}
+
+.articleCompTextPadded.jeanne {
+    padding-bottom: 40px;
+}
+
+/* MARC AURELE */
+
+.articleCompTitleImgMarcAurele {
+    width: 100%;
+    padding: 40px;
+}
+
+.articleCompDateContainer.marcAurele {
+    position: absolute;
+    top: 770px;
+    left: 18%;
+}
+
+/* GUILLAUMET */
+
+.ArticleCompGuillaumetImg {
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.articleCompDateContainer.guillaumet {
+    position: absolute;
+    top: 608px;
+    left: 18%;
+}

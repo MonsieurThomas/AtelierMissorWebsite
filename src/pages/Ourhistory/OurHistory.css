@@ -1,0 +1,44 @@
+
+
+.containerOurhistory {
+    padding: 20px 400px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerOurhistory h1 {
+    padding: 30px 0 ;
+}
+
+.containerOurhistory p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.containerOurhistory span {
+    border-bottom: 1px solid white;
+    width: 140.5%;
+}
+
+.containerOurhistory img {
+    padding: 50px 0;
+    width: 900px;
+}
+
+.borderBotton {
+    margin-bottom: 30px;
+}
+
+.containerOurhistory button {
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 120px;
+    height: 60px;
+    background-color: #bb810e;
+
+}

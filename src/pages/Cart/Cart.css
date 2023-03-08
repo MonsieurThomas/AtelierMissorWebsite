@@ -1,0 +1,206 @@
+.cartContainer {
+    color: white;
+    background-color: black;
+    padding: 0 250px;
+}
+
+.cartContainerFirstTitle {
+    text-align: center;
+    padding: 70px;
+    font-size: 42px;
+}
+.cartContainerTitles {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.cartContainerTitleRightSection {
+    display: flex;
+    gap: 110px;
+}
+.cartContainerBorder {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 40px 0;
+}
+
+
+/* CART ITEM PART */
+
+
+.CartItemContainer {
+padding: 50px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.CartItemContainerImgPart {
+    display: flex;
+    gap: 40px;
+}
+
+.CartItemContainerLink {
+    text-decoration: none;
+    color: white;
+}
+
+.CartItemContainerImgPart img{
+    height: 180px;
+}
+
+.CartItemContainerNamePart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 30px 0 30px 0;
+}
+
+.CartItemContainerNamePart button{
+    background-color: black;
+    border: none;
+    color: #bb810e;
+    text-align: left;
+    
+}
+
+.CartItemContainerNamePart:hover button{
+    cursor: pointer;
+}
+
+.CartItemContainerPartPrice {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+
+    gap: 80px;
+}
+
+
+
+.CartItemContainerPriceInput {
+    display: flex; 
+}
+
+.CartItemContainerPriceInput input {
+    width: 40px;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 7px;
+}
+
+.CartItemContainerPriceInput button {
+    width: 40px;
+    height: 40px;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.CartItemContainerPriceInputMinusButton {
+    border-radius: 5px 0 0 5px;
+    padding-bottom: 5px;
+}
+
+.CartItemContainerPriceInputPlusButton {
+    border-radius: 0 5px 5px 0;
+}
+
+.CartItemBorder {
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+
+
+/* BELOW CART ITEM PART */
+
+.cartContainerBottomPart {
+    padding: 50px 0 120px 0;
+}
+
+.cartContainerInputPart h2 {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.cartContainerBottomPart {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cartContainerInputPart input {
+    height: 120px;
+    width: 570px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 5px;
+    text-align:left;
+}
+
+.cartContainerInput {
+    /* styles for the input and label container */
+    position: relative;
+    color: white;
+  }
+  
+  .cartContainerInputPart textarea {
+    /* styles for the input */
+    color: white;
+    /* dt: top; */
+    width: 580px;
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    padding: 10px;
+  }
+  
+
+.cartContainerButtonPart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
+.cartContainerButtonPart h1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.cartButtonPayment {
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #ad7e20;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.cartButtonPaypal{
+    height: 50px;
+    width: 340px;
+    font-size: 60px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.CartIcon {
+    padding-top: 10px;
+}

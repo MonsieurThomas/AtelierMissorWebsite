@@ -1,0 +1,115 @@
+.ensembleProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameProduct {
+    color:white;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.imgProduct {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.containerProductDetails {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 260px;
+    gap: 50px;
+}
+
+.imgProductDetail img {
+    width: 450px;
+}
+
+.containerTextProductDetail h1 {
+    padding: 10px 0;
+}
+
+.PriceAndFreeShippingContainerDetails {
+    display: flex;
+    padding: 20px 0;
+    gap: 20px;
+    align-items: center;
+}
+
+.CollectionButtonProductDetail {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.CollectionButtonProductDetail b {
+    font-weight: 900;
+}
+
+.QuantityInputContainerProductDetail {
+    display: flex;
+    gap: 30px;
+    padding: 40px 0;
+    font-size: 14px;
+    align-items: center;
+}
+
+.QuantityInputContainerProductDetail input {
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.ButtonProductDetail {
+    width: 450px;
+    height: 60px;
+    color: #bb810e;
+    background-color: black;
+    border: 1px solid #bb810e;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.ButtonProductDetail.secondButton {
+    color: white;
+    background-color: #bb810e;
+}
+
+.containerTextProductDetail {
+    font-size: 14px;
+}
+.faPaypal{
+    font-size: 18px;
+}
+
+.PaypalProductDetail {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleCitationProductDetail {
+    font-size: 24px;
+    margin: 20px 30px 20px 0;
+}
+
+.textCitationProductDetail {
+    line-height: 1.7;
+    font-size: 16px;
+}

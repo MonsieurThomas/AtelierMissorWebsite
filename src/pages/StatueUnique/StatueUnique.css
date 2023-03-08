@@ -1,0 +1,63 @@
+.uniqueContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 100px 0 100px 0;
+}
+
+.uniqueContainer h1 {
+    padding: 50px;
+    font-size: 42px;
+}
+
+.uniqueContainerText {
+    display: flex;
+    flex-direction: column;
+}
+
+.uniqueContainerText p {
+    padding: 10px 0;
+}
+
+.uniqueBorder {
+    border-bottom: 1px solid white;
+    padding-top: 70px;
+}
+
+.uniqueContainerText input {
+    width: 660px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.uniqueContainerText input::placeholder {
+    padding: 15px;
+}
+
+.uniqueContainerText textarea {
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.uniqueContainerText h5 {
+    padding: 30px 0 15px 0;
+    font-size: 14px;
+}
+
+.uniqueContainerText button {
+    margin: 40px 0;
+    height: 60px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #bb810e;
+
+}

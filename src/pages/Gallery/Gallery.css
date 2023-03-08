@@ -1,0 +1,9 @@
+.galleryContainer {
+    color: white;
+    background-color: black;
+}
+
+.galleryContainer h1 {
+    text-align: center;
+    padding: 200px;
+}
